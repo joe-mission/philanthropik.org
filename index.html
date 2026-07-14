@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+	<cfsetting showdebugoutput="no">
+	<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Philanthropik</title>
+	
+	<meta name="description" content="A series of charitable functions produced by activist, strategist and entrepreneur, Zachary McDaniels; designed to give all his friends, associates and business partners the opportunity to donate to, gain relationship with and connection to organizations of both historic significance and human value. These organizations often get saturated in traditional fundraising patterns that don't induct the newest influx of wealth into their databases. PHILANTHROPIK is an effort to help join those who want to give with those that need it. A simple concept with continual gains! Let's promote the future...">
+	
+	<!--<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">-->
+
+	<!-- Vendor Styles -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700,800,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Josefin+Sans:400,400i,700,700i|Lobster" />
+	<link rel="stylesheet" href="vendor/slick-1.6.0/slick/slick.css" />
+
+	<!-- App Styles -->
+	<link rel="stylesheet" href="css/style.css" />
+
+	<!-- Vendor JS -->
+	<script src="vendor/countdown.min.js"></script>
+	<script src="vendor/jquery-3.1.1.min.js"></script>
+	<script src="vendor/slick-1.6.0/slick/slick.min.js"></script>
+
+	<!-- App JS -->
+	<script src="js/functions.js"></script>
+</head>
+
+<body>
+<div class="wrapper">
+	<header class="header">
+		<div class="shell">
+			<a href="#" class="nav-toggle" id="nav-toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</a>
+			<nav class="nav">
+				<a href="#" class="nav-close" id="nav-close">
+					<span></span>
+					<span></span>
+				</a>
+				<ul>
+					<li>
+						<a href="/">
+							Home
+						</a>
+					</li>
+					<li id="about-btn">
+						<a>
+							About
+						</a>
+					</li>
+					<script>$("#about-btn").click(function(){$('html, body').animate({scrollTop: $(".section.section-about").offset().top}, 2000);});</script>
+					<li id="events-btn">
+						<a>
+							Events
+						</a>
+					</li>
+					<script>$("#events-btn").click(function(){$('html, body').animate({scrollTop: $(".section.section-tabs").offset().top}, 2000);});</script>
+					<!---
+
+					<li id="gallery-btn">
+											<a>
+												Gallery
+											</a>
+										</li>
+										<script>$("#gallery-btn").click(function(){$('html, body').animate({scrollTop: $(".section.section-gallery").offset().top}, 2000);});</script>
+						--->
+
+
+					<li id="board-btn">
+						<a>
+							Contact Us
+						</a>
+					</li>
+					<script>$("#board-btn").click(function(){$('html, body').animate({scrollTop: $(".section.section-board").offset().top}, 2000);});</script>
+					<li id="partners-btn">
+						<a>
+							Partners
+						</a>
+					</li>
+					<script>$("#partners-btn").click(function(){$('html, body').animate({scrollTop: $(".section.section-partners").offset().top}, 2000);});</script>
+					<li>
+						<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XM5AV97NQPL3G" class="btn">
+							Donate
+						</a>
+					</li>
+				</ul>
+			</nav><!-- /.nav -->
+		</div><!-- /.shell -->
+	</header><!-- /.header -->
+	<div class="intro">
+		
+	
+		
+	<div class="intro-media">
+		<div class="slider slider-intro">
+			<div class="slides">
+				<!--<div class="slide">
+					<img src="css/images/city-bg.jpg" alt="" width="1280" height="860">
+				</div><!-- /.slide -->
+				<!--<div class="slide">
+					<img src="css/images/city-bg.jpg" alt="" width="1280" height="860">
+				</div><!-- /.slide -->
+				<!--<div class="slide">
+					<img src="css/images/city-bg.jpg" alt="" width="1280" height="860">
+				</div><!-- /.slide -->
+				<div class="slide">
+					<img src="css/images/city-bg.jpg" alt="" width="1280" height="860">
+				</div><!-- /.slide -->
+			</div><!-- /.slides -->
+		</div><!-- /.slider slider-intro -->
+	</div><!-- /.intro-media -->
+
+	<div class="intro-body">
+		<div class="shell">
+			<div class="logo"></div>
+			<h4 class="section-body" style="font-size:3.846em;text-transform: uppercase;font-weight: 700!important;">Love <span style="font-family: 'Lobster', cursive;color: #77c4d3;">&</span> Inspiration</h4>
+		</div><!-- /.shell -->
+	</div><!-- /.intro-body -->
+</div><!-- /.intro -->
+
+
+	<div class="main">
+		<div class="about-deco"></div>
+		<section class="section section-about">
+			<div class="shell">
+				<div class="section-body">
+					<div class="cols">
+						<div class="col col-1of3">
+							<header class="box-head red"></header>
+							<div class="box box-ticket active">
+							<h1 class="box-title">
+								OUR MISSION
+							</h1>
+							<div class="box-body">
+							<p>We believe that this vision for our community is absolutely achievable through careful planning by Philanthropik in partnership with the organizations we fund and the many other institutions that devote themselves to the betterment of life in Baltimore and around the country.</p>
+							<span id="text-mission">
+								<p>Our continuing vision is of our people living and working together to experience the power and joy of life as active participants in a vibrant and vital diverse community. We will realize our vision when we have a sustainable community that exhibits excellence.</p>
+								</span>
+								</div>
+								</div>
+								<div class="box-actions">
+									<button class="action-btn red" id="toggle-mission" style="width: 156px!important;">READ MORE</button>
+								</div>
+						</div>
+						<div class="col col-1of3">
+							<header class="box-head yellow"></header>
+							<div class="box box-ticket active">
+							<h1 class="box-title">
+								WHAT WE DO
+							</h1>
+							<div class="box-body">
+							<p>PHILANTHROPIK is a series of charitable functions produced by activist, strategist and entrepreneur, Zachary McDaniels; designed to give all his friends, associates and business partners the opportunity to donate to, gain relationship with and connection to organizations</p>
+							<span id="text-do">
+								<p>of both historic significance and human value. These organizations often get saturated in traditional fundraising patterns that don't induct the newest influx of wealth into their databases. PHILANTHROPIK is an effort to help join those who want to give with those that need it. A simple concept with continual gains! Let's promote the future...</p>
+								</span>
+								</div>
+								</div>
+								<div class="box-actions">
+									<button class="action-btn yellow" id="toggle-do" style="width: 156px!important;">READ MORE</button>
+								</div>
+						</div>
+						<div class="col col-1of3">
+							<header class="box-head blue"></header>
+							<div class="box box-ticket active">
+							<h1 class="box-title">
+								THE VISION
+							</h1>
+							<div class="box-body">
+							<p>Our continuing vision is of our people living and working together to experience the power and joy of life as active participants in a vibrant and vital diverse community. We will realize our vision when we have a sustainable community that exhibits excellence</p>
+							<span id="text-vision">
+								<p>in each of the following four areas: A compassionate community that lifts and empowers its most vulnerable members and extends a compassionate hand to those in need. An involved community that welcomes people of every age, in every neighborhood, wherever they gather, and offers them many ways to connect to their community and engaged other ethnic communities. A wise community that encourages lifelong study through a wealth of high-quality formal and informal educational opportunities. A community that seeks social justice in the spirit of the Rev. Dr. Martin Luther King Jr. and his spirit of non-violent activism.</p>
+								</span>
+								</div>
+								</div>
+								<div class="box-actions">
+									<button class="action-btn blue" id="toggle-vision" style="width: 156px!important;">READ MORE</button>
+								</div>				
+						</div>
+					</div><!-- /.cols -->
+						
+						<!---
+<h1>11/30/2018 - TOY DRIVE UPDATE</h1>
+<p>Thank you again for choosing Ronald McDonald House Charities of Baltimore, Inc. as the recipient of the Philanthropik Toy Drive. You have no idea how much this means to our families and as you know, we use your toys to create a &ldquo;Toy Store&rdquo; for our RMH parents to come and shop for their children. It means the world to them to be able to give to their children when the rest of life is feeling out of control. I&rsquo;ve enclosed our master wish list for you. As well, below are the items that are requested the most and where our greatest need is for this upcoming Holiday. But all gifts are welcome, appreciated and will be well loved!</p>
+<p>&nbsp;</p>
+<p><strong>o Amazon, Target and Wal-Mart gift cards</strong></p>
+<p><strong>o Spicebox 4D Chemistry</strong></p>
+<p><strong>o SoundMoovz</strong></p>
+<p><strong>o Fingerlings</strong></p>
+<p><strong>o Creativity for Kids Grown &lsquo;n Glow Terrarium</strong></p>
+<p><strong>o Magic Science for Wizards Only Kit by Scientific Explorer</strong></p>
+<p><strong>o Stikbox Studio</strong></p>
+<p><strong>o Creativity for Kids Tropical Terrarium Kit</strong></p>
+<p><strong>o Hatchimals Draggels</strong></p>
+<p><strong>o 3Doodler Start</strong></p>
+<p><strong>o Remote control cars and motorcycles</strong></p>
+<p><strong>o Spy Gear</strong></p>
+<p><strong>o Star Wars Toys</strong></p>
+<p><strong>o Hello Kitty Watch</strong></p>
+<p><strong>o Star Wars Lego Watch</strong></p>
+<p><strong>o Wonderology Science Kits</strong></p>
+<p>&nbsp;</p>
+							--->
+
+						<h1>About Philanthropik</h1>
+						<p>A series of charitable functions produced by activist, strategist and entrepreneur, Zachary McDaniels; designed to give all his friends, associates and business partners the opportunity to donate to, gain relationship with and connection to organizations of both historic significance and human value. These organizations often get saturated in traditional fundraising patterns that don't induct the newest influx of wealth into their databases. PHILANTHROPIK is an effort to help join those who want to give with those that need it. A simple concept with continual gains! Let's promote the future...</p>
+						<!--<button class="action-btn lt-blue"><a href="#" target="_blank" style="text-decoration: none;">LEARN ABOUT PHILANTRHOPIK</a></button>-->
+				</div><!-- /.section-body -->
+			</div><!-- /.shell -->
+		</section><!-- /.section-about -->
+		<section class="section section-tabs" id="#eventsection">
+			<div class="shell">
+				<div class="section-body">
+					<h1>EVENTS<BR><BR>
+					<!---<img src="css/images/events/toydrive2020-lg.jpg" alt="Toy Drive 2020" width="500" height="500" class="lineup-box-image"><BR><BR></h1>--->
+
+					<div class="tabs">
+						<div class="tabs-body">
+							<div class="tab" id="tab-lineup">
+								<div class="slider slider-lineup">
+									<div class="slides">
+										<div class="slide">
+											<div class="lineup-box">
+												<header class="lineup-box-head">
+													<img src="css/images/events/toydrive-2020.png" alt="Toy Drive 2020" width="235" height="164" class="lineup-box-image">
+													</header><!-- /.lineup-box-head -->
+												<div class="lineup-box-body">
+													<h4>THE TOY DRIVE 2020
+														</h4>
+													</div><!-- /.lineup-box-body -->
+											</div><!-- /.lineup-box -->
+											<!---
+											<div class="box-actions">
+												<a href="https://www.mt.cm/shade-2018" target="_blank">
+													<button class="action-btn blue" style="width: 184px!important;">BUY TICKETS</button>
+												</a>
+											</div>
+											--->
+											<!-- /.box-actions -->
+										</div><!-- /.slide -->
+
+
+
+										<div class="slide">
+											<div class="lineup-box">
+												<header class="lineup-box-head">
+													<!--- <a href="https://www.mt.cm/guise" target="_blank"> --->
+														<img src="css/images/events/guise-2018.png" alt="Guise 2018" width="235" height="164" class="lineup-box-image">
+													</a>
+												</header><!-- /.lineup-box-head -->
+												<div class="lineup-box-body">
+													<!--- <a href="https://www.mt.cm/guise" target="_blank"> --->
+														<h4>
+															GUISE 2018
+														</h4>
+													</a>
+												</div><!-- /.lineup-box-body -->
+											</div><!-- /.lineup-box -->
+											<!---
+											<div class="box-actions">
+												<a href="https://www.mt.cm/shade-2018" target="_blank">
+													<button class="action-btn blue" style="width: 184px!important;">BUY TICKETS</button>
+												</a>
+											</div>
+											--->
+											<!-- /.box-actions -->
+										</div><!-- /.slide -->
+
+
+
+
+										<div class="slide">
+											<div class="lineup-box">
+												<header class="lineup-box-head">
+													<!---<a href="http://www.philanthropik.org/images/shade-2018.html" target="_blank">--->
+														<img src="css/images/events/shade-2018.png" alt="Shade 2017" width="235" height="164" class="lineup-box-image">
+													<!---</a>--->
+												</header><!-- /.lineup-box-head -->
+												<div class="lineup-box-body">
+													<!---<a href="http://www.philanthropik.org/images/shade-2018.html" target="_blank">--->
+														<h4>
+															Shade 2018
+														</h4>
+												<!---</a>--->
+												</div><!-- /.lineup-box-body -->
+											</div><!-- /.lineup-box -->
+											<!---
+											<div class="box-actions">
+												<a href="https://www.mt.cm/shade-2018" target="_blank">
+													<button class="action-btn blue" style="width: 184px!important;">BUY TICKETS</button>
+												</a>
+											</div>
+											--->
+											<!-- /.box-actions -->
+										</div><!-- /.slide -->
+										<div class="slide">
+											<div class="lineup-box">
+												<header class="lineup-box-head">
+													<!---<a href="http://www.philanthropik.org/images/toydrive-2017.cfm" target="_blank">--->
+														<img src="css/images/events/toydrive-2017.png" alt="Toy Drive 2017" width="235" height="164" class="lineup-box-image">
+													<!---</a>--->
+												</header><!-- /.lineup-box-head -->
+												<div class="lineup-box-body">
+													<!---<a href="http://www.philanthropik.org/images/toydrive-2017.cfm" target="_blank">--->
+														<h4>
+															2017 Toy Drive
+														</h4>
+													</a>
+												</div><!-- /.lineup-box-body -->
+											</div><!-- /.lineup-box -->
+											<!--<div class="box-actions">
+												<a href="#" target="_blank">
+													<button class="action-btn blue" style="width: 184px!important;">EVENT DETAILS</button>
+												</a>
+											</div><!-- /.box-actions -->
+										</div><!-- /.slide -->
+										
+										<div class="slide">
+											<div class="lineup-box">
+												<header class="lineup-box-head">
+													<!---<a href="http://www.philanthropik.org/images/holiday-2015.cfm" target="_blank">--->
+														<img src="css/images/events/holiday-2015.jpg" alt="Holiday 2015" width="235" height="164" class="lineup-box-image">
+													<!---</a>--->
+												</header><!-- /.lineup-box-head -->
+
+												<div class="lineup-box-body">
+													<!---<a href="http://www.philanthropik.org/images/holiday-2015.cfm" target="_blank">--->
+														<h4>
+															Holiday Edition 2015
+														</h4>
+													<!---</a>--->
+												</div><!-- /.lineup-box-body -->
+											</div><!-- /.lineup-box -->
+											<!--<div class="box-actions">
+												<a href="#" target="_blank">
+													<button class="action-btn blue" style="width: 184px!important;">EVENT DETAILS</button>
+												</a>
+											</div><!-- /.box-actions -->
+										</div><!-- /.slide -->
+
+										<div class="slide">
+											<div class="lineup-box">
+												<header class="lineup-box-head">
+													<!---<a href="http://www.philanthropik.org/images/shade-2015.cfm" target="_blank">--->
+														<img src="css/images/events/shade-2015.jpg" alt="Shade 2015" width="235" height="164" class="lineup-box-image">
+													<!---</a>---->
+												</header><!-- /.lineup-box-head -->
+
+												<div class="lineup-box-body">
+														<h4>
+															Shade 2015
+														</h4>
+												</div><!-- /.lineup-box-body -->
+											</div><!-- /.lineup-box -->
+											<!--<div class="box-actions">
+												<a href="#" target="_blank">
+													<button class="action-btn blue" style="width: 184px!important;">EVENT DETAILS</button>
+												</a>
+											</div><!-- /.box-actions -->
+										</div><!-- /.slide -->
+
+									</div><!-- /.slides -->
+								</div><!-- /.slider slider-lineup -->
+
+							</div><!-- /#tab-lineup.tab -->
+						</div><!-- /.tabs-body -->
+					</div><!-- /.tabs -->
+
+				</div><!-- /.section-body -->
+			</div><!-- /.shell -->
+		</section><!-- /.section section-tabs -->
+
+		<section class="section section-gallery">
+			<div class="shell">
+				<div class="section-body">
+					<h4 class="section-body" style="font-size:3.846em;text-transform: uppercase;font-weight: 700!important;height: 75px;">Live <span style="font-family: 'Lobster', cursive;color: #77c4d3;">&</span> Work Together</h4>
+					<!---<a href="http://www.philanthropik.org/images/toydrive2018.html" target="_blank">---->
+						<!---<button class="btn btn-outline" style="width: 179px!important;border: 3px solid #fff;font-size: 1.385em;border-radius: 10px;color: #fff;font-weight: 700;text-transform: uppercase;">View Gallery</button>
+					</a>--->
+				</div><!-- /.section-body -->	
+			</div><!-- /.shell -->
+		</section><!-- /.section section-ticketing -->
+		
+		<section class="section section-donate">
+			<div class="shell">
+				<div class="section-body">
+					<div class="donate-text"></div>
+					<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XM5AV97NQPL3G" target="_blank">
+						<button class="btn btn-outline" style="width: 179px!important;border: 3px solid #fff;font-size: 1.385em;border-radius: 10px;color: #fff;font-weight: 700;text-transform: uppercase;">Donate Now</button>
+					</a>
+				</div><!-- /.section-body -->	
+			</div><!-- /.shell -->
+		</section><!-- /.section section-ticketing -->
+		
+		<!---<section class="section section-board">
+			<div class="shell">
+				<div class="section-body">
+					<h1>The Board</h1>
+						<div class="cols first-row">
+							<div class="col col-1of3">
+								<header class="box-head">
+									<div class="headshot-holder"><img src="css/images/headshot-1.png" width="150px" height="150px"></div>
+								</header>
+								<div class="box box-ticket active">
+								<h1 class="box-title">ZACH MCDANIELS</h1>
+								<h4 class="box-subtitle">President</h4>
+								<div class="box-body">
+								<p>An entrepreneur who has launched and successfully managed several different business ventures, including Graham Ave Consulting, McDaniels and Simmons Holdings & McDaniels & Murphy Ventures.</p>
+								<span id="text1">
+								<p>Working in the fields of civil rights, electoral politics, business, and political activism for more than twenty years, McDaniels has a planned and produced several successful events including the Hip Hop Inaugural Ball , Russell Simmons 2009 Grammys Nominees Party, Murphy Firm National Bar Association Reception, Greater Baltimore Urban League/Philanthropik Birthday Edition hosted by Dr. J, Russell Simmons, Kevin Powell, Hill Harper and Marsha Ambroisuis, Philanthropik-Toy Drive hosted by Ray Rice and Lt Governor Anthony Brown, 6 Sports Conversation Dr. J & Russell Simmons, All Star Weekend 2011 and 6 Sports & Dr. J Family and Friends Playoff Weekend at the Mohegan Sun.</p>
+								</span>
+								</div>
+								</div>
+								<div class="box-actions">
+									<button class="action-btn lt-blue" id="toggle1" style="width: 156px!important;">READ MORE</button>
+								</div>
+							</div>
+							<div class="col col-1of3">
+								<header class="box-head">
+									<div class="headshot-holder">
+										<img src="css/images/headshot-2.png">
+									</div>
+								</header>
+								<div class="box box-ticket active">
+								<h1 class="box-title">MARTY GLAZE</h1>
+								<h4 class="box-subtitle">Vice President</h4>								
+								<div class="box-body">
+								<p>Managing partner in Commercial Interiors, a Maryland-based, certified MBE Construction Company, with annual revenues of $30 million, employing over 150 full-time professionals in general contracting</p>
+								<span id="text2">
+								<p>and interior finishes construction. Baltimore Business Journal 2006 recognizes Commercial Interiors as the 19th Largest Construction and General Contracting firm in Baltimore.</p>
+								</span>
+								</div>
+								</div>
+								<div class="box-actions">
+									<button class="action-btn lt-blue" id="toggle2" style="width: 156px!important;">READ MORE</button>
+								</div>
+							</div>
+							<div class="col col-1of3">
+								<header class="box-head">
+									<div class="headshot-holder">
+										<img src="css/images/headshot-3.png">
+									</div>
+								</header>
+								<div class="box box-ticket active">
+								<h1 class="box-title">HASSAN MURPHY</h1>
+								<h4 class="box-subtitle">Treasurer</h4>								
+								<div class="box-body">
+								<p>Managing Partner of the prestigious Murphy Firm in Baltimore, MD. A graduate of Williams College (B.A. political science 1990) and the Georgetown University Law Center (J.D. 1994), Mr. Murphy was an associate</p>
+								<span id="text3">
+								<p>in the New York office of Curtis, Mallet-Prevost, Colt and Mosle, a New York based law firm specializing in international transactions, from 1994 to 1997. While at Curtis Mallet, Mr. Murphy specialized in acquisitions, corporate finance and bankruptcy. In that capacity, he represented a $4.7 billion takeover target, a $65 million seller of its assets and a $500 million asset securitization.</p>
+								<p>He has brought his transactional expertise to the Firm, focusing on accountants' liability and representation of publicly traded corporations, but he also provides general advice to telecommunications companies, investment banks and network integration companies.</p>
+								</span>
+								</div>
+								</div>
+								<div class="box-actions">
+									<button class="action-btn lt-blue" id="toggle3" style="width: 156px!important;">READ MORE</button>
+								</div>
+							</div>
+						</div>
+						<div class="cols">
+							<div class="col col-1of3">
+								<header class="box-head">
+									<div class="headshot-holder">
+										<img src="css/images/headshot-4.png">
+									</div>
+								</header>
+								<div class="box box-ticket active">
+								<h1 class="box-title">DEAN HARRISON</h1>
+								<h4 class="box-subtitle">Secretary</h4>								
+								<div class="box-body">
+								<p>CEO of Harrison Development LLC. Harrison Development is currently involved as developer and co-developer in over $800,000,000 worth of development projects in Baltimore, MD and Washington, DC.</p>
+								<span id="text4">
+								<p>These projects include some of the most innovative concepts and daring designs to arrive in these markets. Harrison Development has recently been awarded several groundbreaking new projects that will certainly add to the progress of the Baltimore/Washington Metropolitan region. Dean is now extending his vision to include development initiatives in other regions of the US and the Caribbean.</p>
+								</span>
+								</div>
+								</div>
+								<div class="box-actions">
+									<button class="action-btn lt-blue" id="toggle4" style="width: 156px!important;">READ MORE</button>
+								</div>
+							</div>
+							<div class="col col-1of3">
+								<header class="box-head">
+									<div class="headshot-holder">
+										<img src="css/images/headshot-5.png">
+									</div>
+								</header>
+								<div class="box box-ticket active">
+								<h1 class="box-title">JULIUS ERVING III</h1>
+								<h4 class="box-subtitle">Sitting Member</h4>								
+								<div class="box-body">
+								<p>After selling his Philadelphia-based entertainment management company for a reported $12 million in 2004, Julius Erving III took his share of the sale and launched Julius Erving Group (JEG)</p>
+								<span id="text5">
+								<p>another entertainment management company. Indeed, the young deal maker was successfully expanding his ventures, opening an Atlanta-based boxing gym with R&B singer Mario (who he also manages), and partnering with three friends to develop two sneaker collections (Jhung Yuro and Caesar Lunix). In 2008, the combined revenue of the shoe lines and gyms was $3.5 million.</p>
+								<p>Erving's entertainment management company has been thriving and he's added two new acts to its roster. R&B singer Mario also released an album in October 2009, which reached No. 9 on the U.S. Billboard 200 chart and No. 2 on the Top R&B/Hip-Hop Albums chart.</p>
+								</span>
+								</div>
+								</div>
+								<div class="box-actions">
+									<button class="action-btn lt-blue" id="toggle5" style="width: 156px!important;">READ MORE</button>
+								</div>
+							</div>
+							<div class="col col-1of3">
+								<header class="box-head">
+									<div class="headshot-holder">
+										<img src="css/images/headshot-6.png">
+									</div>
+								</header>
+								<div class="box box-ticket active">
+								<h1 class="box-title">ERIC BRYANT</h1>
+								<h4 class="box-subtitle">Member at Large</h4>								
+								<div class="box-body">
+								<p>A seasoned lawyer, coveted political strategist, and government influencer.  His clients range from publicly traded companies to nonprofit entities operating in various sectors</p>
+								<span id="text6">
+								<p>including retail, technology, gaming, energy, and real estate development.  He is a partner with Rifkin Weiner Livingston, LLC of Maryland. Since starting his law practice in 1995, Eric has worked on some of Maryland's most complex legal matters.  He combines his refined legal experience with his passion for making sound public policy to produce results for clients.  He cut his teeth working on political campaigns as a law student and working on complex litigation matters as a young lawyer.  He is a trusted advisor to some of Maryland's most prominent elected officials at the local, state, and federal levels – past and present.</p>
+								<p>Eric served as a gubernatorial appointee to the Judicial Nominating Commission for Baltimore City, chief counsel to the transition team for a mayor of Baltimore City, and political director and counsel to the campaign committee for the Prince George's County, Maryland State's Attorney.  From 2000 to 2003, Eric was Deputy Director of National Field Operations for the NAACP (under former president Kweisi Mfume).</p>
+								<p>A graduate of Duke University and the University of Maryland School of Law, Eric is a board member for the KIPP School of Baltimore and the Real MVP – Wanda Durant Charity.  He is also a member of the Maryland ACLU's Committee for Legal and Litigation Priorities.  Faith and family are his respite.</p>
+								</span>
+								</div>
+								</div>
+								<div class="box-actions">
+									<button class="action-btn lt-blue" id="toggle6" style="width: 156px!important;">READ MORE</button>
+								</div><BR><BR>
+							</div>
+						</div>
+
+
+						<div class="cols">
+							<div class="col col-1of3">
+								<header class="box-head">
+									<div class="headshot-holder">
+										<img src="css/images/Cassandra-C-Stevenson.png">
+									</div>
+								</header>
+								<div class="box box-ticket active">
+								<h1 class="box-title">Cassandra C. Stevenson</h1>
+								<h4 class="box-subtitle">Sitting Member</h4>								
+								<div class="box-body">
+								<p>Cassandra C. Stevenson is the international tax director for Legg Mason, Inc. and is responsible for the international compliance and the ASC 740 reporting for the firm's international compliance and the ASC 740</p>
+								<span id="text7">
+								<p>reporting for the firm's international subsidiaries. She has 16 years of experience working with publicly traded companies in the area of tax planning, compliance, and reporting. Cassandra began her tax career with the Baltimore Office of PricewaterhouseCoopers, LP in 2002 and joined Legg Mason in April 2009. Cassandra is a certified public accountant and holds an active license in Maryland. She is a member of the AICPA, the Baltimore-Washington Chapter of TEI, and an active member of the Baltimore Chapter of the Links, Inc. She holds a B.S. in accounting from Morgan State University and a M.S. in taxation from American University.</p>
+								</span>
+								</div>
+								</div>
+								<div class="box-actions">
+									<button class="action-btn lt-blue" id="toggle7" style="width: 156px!important;">READ MORE</button>
+								</div>
+							</div>
+							<div class="col col-1of3">
+								<header class="box-head">
+									<div class="headshot-holder">
+										<img src="css/images/Joy-Pratcher.png">
+									</div>
+								</header>
+								<div class="box box-ticket active">
+								<h1 class="box-title">Joy <BR>Pratcher</h1>
+								<h4 class="box-subtitle">Sitting Member</h4>								
+								<div class="box-body">
+								<p>Joy Pratcher is an attorney and entrepreneur. In 2012, she co-founded Next Step Staffing, a firm that provides technical resource placements. Joy is also the founder of One of One Productions
+								</p>
+								<span id="text8">
+								<p>a full-service production studio/ podcast studio in the NY area where she produces content for fellow entrepreneurs. In establishing and developing new business, Joy has been able to implement and utilize the experience she attained as a lawyer and strategic advisor during the first 15 years of her career in the entertainment and sports industries. Additionally, Joy also worked in the area of entertainment law for EMI publishing, and the boutique entertainment law firm of James McMillan PA. Joy holds a BA from Hampton University and JD from St. John's University Law School (admitted in NY).</p>
+								</span>
+								</div>
+								</div>
+								<div class="box-actions">
+									<button class="action-btn lt-blue" id="toggle8" style="width: 156px!important;">READ MORE</button>
+								</div>
+							</div>
+							<div class="col col-1of3">
+								
+							</div>
+						</div>
+							---------------->
+
+
+
+
+							
+				</div>
+			</div>
+		</section><
+		--->
+
+		<section class="section section-partners">
+			<div class="shell">
+				<div class="section-body">
+					<h1>Our Partners</h1>
+					<h1 class="p-header">KEARNEY & O'DOHERTY PUBLIC AFFAIRS</h1>
+					<p>KO was founded by two of Maryland's most effective political and public affairs strategists to combine communications and government affairs in a one-stop shop – bringing campaign tactics and focus to public affairs. We combine unparalleled intelligence and insight about current governmental attitudes and initiatives, with a proven public and private-sector track record of designing and implementing successful strategies to achieve even the most complex, difficult objectives.</p>
+					<h1 class="p-header">ENTERTAINMENT CONCEPTS INVESTORS EIC LIVE</h1>
+					<p>Launched more than a decade ago, Entertainment Concepts Investors (ECI) currently operates more than a dozen different concepts in excess of 50 locations, and counting. According to Reed Cordish, “Our entire development outlook is based upon long-term commitment to quality. Our ability to place certain concepts into our large-scale developments allows us to ensure the businesses, specifically those focused on entertainment, share the same long-term commitment to the quality of a develop­ment through the quality of operations. In addition, it allows us to create unique concepts that are a terrific draw for a particular area.</p>
+					<h1 class="p-header">TICKET HIVE</h1>
+					<p>Ticketing That’s Truly About You. <b>It's Your Brand!</b> 100% your brand from site, to tickets, to app. Ticket Hive is an easy to use, feature-rich platform to create custom websites for each event on your URL. <b>It's Your Data!</b> You own all data collected by your event. We do not resell or remarket to your client list. EVER. <b>It's Your Money!</b> Make and keep more revenue with customizable service fees and zero setup fee. Link your accounts to get access to funds daily. <b>It's Your Team!</b> Comprehensive training and custom, dedicated account/support staff to help make your events run like clockwork.  Visit <a href="https://www.TicketHive.com" target="_blank">TicketHive.com</a> to learn more.</p>
+
+					
+
+					
+
+					
+					<h1 class="p-header">SAVANT MARKETING</h1>
+					<p>Savant is a complete marketing think tank. We build innovative advertising and imaging concepts for businesses who want to cross the great divide between product and brand. Diverse markets are our specialty and we offer an array of client services that speak to anything image driven. Printed visuals, web construction, multimedia video presentations and visual production of business collateral; such as business card, letterhead, brochures and novelty spin offs are just the tip of the proverbial iceberg. We also create and edit language, devise larger than life ad campaigns and offer art direction. Our brand of branding is concrete. Be recreated with Savant...and let us brand your future!</p>
+					<h2 style="color: #5e5e5e;font-size: 2.308em;text-transform: uppercase;text-align: center;margin-top: 100px;">INTERESTED IN BECOMING A PARTNER?</h2>
+					<button class="action-btn lt-blue" style="background-color: #77c4d3;width: 419px;background: #3f5666;text-align: center;margin: auto;display: block;margin-bottom: -120px;position: relative;"><a href="mailto:PHILANTHROPIK@gmail.com" target="_blank" style="text-decoration: none;">LEARN MORE ABOUT PARTNERSHIPS</a></button>
+				</div><!-- /.section-body -->
+			</div><!-- /.shell -->
+		</section><!-- /.section section-parnters -->
+	</div><!-- /.main -->
+		<section class="section section-board">
+			<footer class="footer">
+			<div class="shell">
+				<div class="logo-footer"></div>
+				<p style="color: #fff;font-weight: 700;text-transform: uppercase;margin-top: 25px;">Powered By Ticket Hive</p>
+			</div>
+		</footer><!-- /.footer -->
+</div><!-- /.wrapper -->
+</body>
+</html>
+
